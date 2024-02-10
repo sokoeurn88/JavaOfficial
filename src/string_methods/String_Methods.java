@@ -86,6 +86,9 @@ public class String_Methods {
 		System.out.println(splitrE[0]);
 		System.out.println(splitrE[1]);
 		
+		/*split("dilimeter" but you can't use some special symbols: * % ^ ( ) - */
+		
+		
 		
 		
 	}
