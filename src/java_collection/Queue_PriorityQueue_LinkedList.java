@@ -7,7 +7,7 @@ public class Queue_PriorityQueue_LinkedList {
 
 	public static void main(String[] args) {
 		
-		/*Homogeneous data type, when element prior to processing, insertion order preserved, duplication is allowed
+		/*used for Homogeneous data type, used for when element prior to processing, insertion order preserved, duplication is allowed
 		 * */
 		PriorityQueue pq = new PriorityQueue();
 		pq.add('a');
