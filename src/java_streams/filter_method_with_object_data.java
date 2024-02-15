@@ -23,15 +23,17 @@ public class filter_method_with_object_data {
 		
 		/*Create one collection contain Object Product. This is the reason why we create class Product*/
 		List<Product> lp = new ArrayList<Product>(); /*Product type must be defined in order to add new object*/
-		lp.add(new Product(1,"Dell",1200));
-		lp.add(new Product(2,"Apple",1300));
-		lp.add(new Product(3,"Lenovo",1000));
-		lp.add(new Product(4,"Accer",900));
+		lp.add(new Product(1,"Dell",1200.00));
+		lp.add(new Product(2,"Apple",1300.00));
+		lp.add(new Product(3,"Lenovo",1000.00));
+		lp.add(new Product(4,"Accer",900.00));
 		
 		/*filter the price condition and add to new collection*/
 		List<Product> lpNew =lp.stream().filter(p->p.price>=1000).collect(Collectors.toList());
 		System.out.println(lpNew);
-		 
+		
+		
+		 lp.stream().filter(p->p.price>1000.00).forEach(pr->System.out.println(pr));
 		 
 		
 	}
