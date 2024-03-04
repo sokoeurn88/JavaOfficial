@@ -30,7 +30,10 @@ public class Abstract_Concept_16 implements Shape {
 		System.out.println("This is circle just implement");
 	}
 	
-	
+	/*this method is not belong to interface*/
+	void drawRoudn() {
+		System.out.println(" a round shape");
+	}
 	
 
 	public static void main(String[] args) {
@@ -39,10 +42,16 @@ public class Abstract_Concept_16 implements Shape {
 		Abstract_Concept_16 acobj = new Abstract_Concept_16();
 		acobj.circle();
 		acobj.square();
+		Shape.rectangle(); /*because this class extends to interface Shape. because it is static no acobj is needed*/
+		acobj.drawRoudn();
 		
-		
-		rectangle(); /*because it is static no acobj is needed*/
-		
+		/*way 2 */
+		Shape sh = new Abstract_Concept_16();
+		acobj.circle();
+		acobj.square();
+		Shape.rectangle();
+//		shap.drawRound();
+		System.out.println(Shape.length * Shape.width);
 		
 		
 		/*Abstract is hiding implementation details, and showing only functionality to user
@@ -80,15 +89,6 @@ public class Abstract_Concept_16 implements Shape {
 		
 		
 	}
-
-
-
-
-	private static void rectangle() {
-		// TODO Auto-generated method stub
-		
-	}
-
 
 
 
