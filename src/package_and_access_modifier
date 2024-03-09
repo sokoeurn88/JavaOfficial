@@ -1,0 +1,27 @@
+
+Project => packages => classes
+is 
+the 
+same 
+as
+Project => folders => files
+
+2 types of packages
+
+-> built-in package : java package is already build for us
+
+-> user define package : we create the package
+
+
+
+Access modifiers : define scope of variable and methods
+
+	public : access every with the project
+	
+	protected : access with class and package, can access by another class and package through inheritance 
+	
+	default : access with the package for variable and method
+	
+	private : access only with the class for variable and method
+	
+	
