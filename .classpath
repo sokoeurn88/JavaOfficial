@@ -6,10 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/sokoeurn chhay/Downloads/webdrivermanager-5.6.3 (1).jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/sokoeurn chhay/eclipse-workspace2024Feb/webdrivermanager-5.6.3 (1).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
